@@ -79,11 +79,35 @@
     }, 600);
   }
 
+  // ------- Telemetry Click Tracker -------
+  function initTelemetry() {
+    document.querySelectorAll('a[href^="tel:"]').forEach(function (link) {
+      link.addEventListener("click", function () {
+        var cta = link.getAttribute("data-cta") || "Unknown";
+        var page = window.location.pathname || "/index";
+        
+        fetch("/track.php", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            page: page,
+            cta: cta
+          })
+        }).catch(function () {
+          // Silent fallback on network error
+        });
+      });
+    });
+  }
+
   function init() {
     initDrawer();
     initStickyCta();
     initSmoothScroll();
     initSal();
+    initTelemetry();
   }
 
   if (document.readyState === "loading") {

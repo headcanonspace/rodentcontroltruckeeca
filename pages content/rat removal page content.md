@@ -97,11 +97,7 @@ Rats can carry hantavirus, salmonella, and leptospirosis. All three spread mainl
 
 ---
 
-## H2: Rat Removal Service Areas
 
-We handle rat removal across Truckee's 96161 zip code, including Downtown Truckee, Glenshire, Donner Lake, Prosser Lakeview, Hobart Mills, Martis Camp, Lahontan, and Northstar.
-
----
 
 ## H2: Get in Touch
 

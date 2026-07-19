@@ -55,11 +55,7 @@ A single mouse can lead to a much bigger problem quickly, since a female mouse c
 
 ---
 
-## H2: Is It Worth Hiring a Professional for Mice Control?
 
-A few store bought traps can catch a mouse here and there, but they rarely find the nest or the gap it used to get in. A professional inspection finds the actual source of the problem, which is the part that stops new mice from showing up every few weeks.
-
----
 
 ## H2: Protecting Second Homes and Rentals from Mice
 
@@ -101,11 +97,7 @@ Bait helps in most cases, but it isn't always necessary if traps are placed dire
 
 ---
 
-## H2: Mice Control Service Areas
 
-We handle mice control across Truckee's 96161 zip code, including Downtown Truckee, Glenshire, Donner Lake, Prosser Lakeview, Hobart Mills, Martis Camp, Lahontan, and Northstar.
-
----
 
 ## H2: Get in Touch
 

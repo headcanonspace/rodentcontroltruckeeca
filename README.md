@@ -30,5 +30,3 @@ This is a professional website for Rodent Control Truckee, specializing in servi
 - Contact form functionality
 - Mobile-friendly navigation
 - Dynamic service and location pages
-
-Generated with Ranklocal - Professional website creation tool.

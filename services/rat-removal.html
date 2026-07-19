@@ -206,7 +206,7 @@
 <header style="position:sticky;top:0;z-index:50;background:#fff;color:var(--t6-ink);border-bottom:1px solid var(--t6-hairline);box-shadow:0 1px 0 rgba(23,34,7,0.04);">
   <div class="t6-container" style="display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-top:0.95rem;padding-bottom:0.95rem;">
     <a href="/" style="display:flex;align-items:center;text-decoration:none;">
-      <img src="/assets/images/logo.png" alt="Rodent Control Truckee" style="height:70px;width:auto;display:block;" />
+      <img src="/assets/images/logo.png" alt="Rodent Control Truckee" style="height:70px;width:auto;display:block;" decoding="async" />
     </a>
 
     <nav aria-label="Primary" class="t6-nav-desktop">
@@ -410,7 +410,7 @@
         </div>
         <div data-sal="slide-left">
           <div class="t6-image-frame" style="aspect-ratio:5 / 4;">
-            <img src="../assets/images/gen/detailed-close-up-view-of-a-brown-rat-foraging-i-8033dc23.webp" alt="Detailed close-up view of a brown rat foraging in a forest setting, showcasing its natural habitat." style="width:100%;height:100%;object-fit:cover;" loading="eager" />
+            <img src="../assets/images/gen/detailed-close-up-view-of-a-brown-rat-foraging-i-8033dc23.webp" alt="Detailed close-up view of a brown rat foraging in a forest setting, showcasing its natural habitat." style="width:100%;height:100%;object-fit:cover;" loading="eager" fetchpriority="high" decoding="async" />
           </div>
         </div>
       </div>
@@ -459,7 +459,7 @@
       <div style="display:grid;gap:3rem;grid-template-columns:1fr;align-items:center;">
         <div data-sal="slide-right">
           <div class="t6-image-frame" style="aspect-ratio:4 / 3;">
-            <img src="../assets/images/gen/on-the-job-52b2f028.webp" alt="Professional pest control technician on the job in Truckee, California." style="width:100%;height:100%;object-fit:cover;" loading="lazy" />
+            <img src="../assets/images/gen/on-the-job-52b2f028.webp" alt="Professional pest control technician on the job in Truckee, California." style="width:100%;height:100%;object-fit:cover;" loading="lazy" decoding="async" />
           </div>
         </div>
         <div data-sal="slide-left">
@@ -538,13 +538,30 @@
   <!-- Section 5: Image Left, Text Right -->
   <section class="t6-section t6-band-cream t6-section-vh" style="padding: 2.5rem 0;">
     <div class="t6-container">
-      <div style="display:grid;gap:3rem;grid-template-columns:1fr;align-items:center;">
-        <div data-sal="slide-right">
-          <div class="t6-image-frame" style="aspect-ratio:4 / 3;">
-            <img src="../assets/images/gen/a-male-technician-works-on-a-machine-in-an-indus-0922c552.webp" alt="Rodent exclusion technician inspecting external home vents in Truckee." style="width:100%;height:100%;object-fit:cover;" loading="lazy" />
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;margin-bottom:3rem;">
+          <div class="t6-image-frame" style="height:280px;border-radius:12px;overflow:hidden;">
+            <img src="../assets/images/gen/a-male-technician-works-on-a-machine-in-an-indus-0922c552.webp" alt="Rodent exclusion technician inspecting external home vents in Truckee." style="width:100%;height:100%;object-fit:cover;" loading="lazy" decoding="async" />
+          </div>
+          <div>
+            <h3 style="margin:0 0 1rem;font-size:1.5rem;color:var(--t6-ink);">Attics, Crawlspaces & Attached Garages</h3>
+            <p style="font-size:1rem;line-height:1.6;color:var(--t6-text);margin:0 0 1rem;">Attics offer warmth and quiet nesting. Crawlspaces give ground-level entrance through vents, pipe penetrations, and foundation cracks. Attached garages often have gap-heavy garage door seals and shared wall access into living spaces.</p>
+            <p style="font-size:1rem;line-height:1.6;color:var(--t6-text);margin:0;">We inspect every zone systematically, identifying entry points, active runways, and nesting sites before starting exclusion.</p>
           </div>
         </div>
-        <div data-sal="slide-left">
+        
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;">
+          <div>
+            <h3 style="margin:0 0 1rem;font-size:1.5rem;color:var(--t6-ink);">Seasonal & Vacation Property Risks</h3>
+            <p style="font-size:1rem;line-height:1.6;color:var(--t6-text);margin:0 0 1rem;">Truckee has many secondary homes and vacation rentals left unoccupied for weeks or months. An undetected rat intrusion in an empty home can cause severe wire damage, insulation contamination, and costly repairs before anyone notices.</p>
+            <p style="font-size:1rem;line-height:1.6;color:var(--t6-text);margin:0;">We offer specialized monitoring and protection plans for vacation homeowners to prevent winter surprises.</p>
+          </div>
+          <div class="t6-image-frame" style="height:280px;border-radius:12px;overflow:hidden;">
+            <img src="../assets/images/gen/charming-wooden-cottage-surrounded-by-lush-green-731f308f.webp" alt="Charming wooden cottage rental in Truckee surrounded by trees." style="width:100%;height:100%;object-fit:cover;" loading="lazy" decoding="async" />
+          </div>
+        </div>
+        
+        <div style="margin-top: 3rem;">
           <h2 style="margin: 0 0 1rem; font-size: clamp(1.75rem, 3.5vw, 2.75rem);">How We Remove Rats in Truckee</h2>
           <hr class="t6-hr-green" style="margin: 0 0 1.25rem;" />
           <p style="font-size: 1.05rem; line-height: 1.65; margin-bottom: 1.25rem;">A trap in the garage might catch one rat, but it does nothing about the gap that let it in. If that gap stays open, another rat finds it within a season. That's why we don't stop at trapping, we find the entry point and close it too. We start by checking the attic, crawl space, foundation, and roofline for burrows, droppings, and gnaw marks, and we figure out which type of rat it is before setting anything.</p>
@@ -692,7 +709,7 @@
     <div style="display:grid;gap:2.5rem;grid-template-columns:1.4fr 1fr 1fr 1fr;">
       <div>
         <div style="display:flex;align-items:center;margin-bottom:1rem;">
-          <img src="/assets/images/logo_footer.png" alt="Rodent Control Truckee" style="height:64px;width:auto;display:block;" />
+          <img src="/assets/images/logo_footer.png" alt="Rodent Control Truckee" style="height:64px;width:auto;display:block;" loading="lazy" decoding="async" />
         </div>
         <hr class="t6-hr-green" style="margin:0 0 1rem;" />
         <p style="color:rgba(255,255,255,.78);max-width:340px;font-size:.95rem;line-height:1.7;">Licensed, insured rodent control pros serving local homes and businesses with same-day response and a real workmanship warranty.</p>

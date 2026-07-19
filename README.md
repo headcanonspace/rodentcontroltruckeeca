@@ -22,6 +22,10 @@ This is a professional website for Rodent Control Truckee, specializing in servi
 3. Test the website functionality
 4. Update contact information as needed
 
+## Deployment
+
+Automated FTP deployment enabled via GitHub Actions.
+
 ## Features
 
 - Responsive design

@@ -23,6 +23,13 @@ RewriteRule ^blog\.html$ /blog [R=301,L]
 RewriteRule ^services/?$ / [R=301,L]
 RewriteRule ^locations/?$ / [R=301,L]
 
+# 301 Redirects for rat removal slug updates
+Redirect 301 /services/rat-removal /rat-removal-truckee
+Redirect 301 /services/rat-removal-truckee /rat-removal-truckee
+Redirect 301 /rat-removal /rat-removal-truckee
+Redirect 301 /services/rat-removal.html /rat-removal-truckee
+Redirect 301 /services/rat-removal-truckee.html /rat-removal-truckee
+
 # 2. Clean URLs - Serve .html files without requiring .html extension in URL
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f

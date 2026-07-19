@@ -6,31 +6,34 @@ Same day mice and rat removal near Glenshire, Donner Lake, and Northstar. Truste
 
 ---
 
-# H1: Rodent Control Truckee
+# H1: Trusted Rodent Control in Truckee
 
-If you hear scratching in the attic or find droppings near the pantry, you likely have mice or rats getting in through a gap somewhere in the house. Most problems start the same way. Heavy snow can loosen a roof board or bend a vent cover after the first freeze. A mouse or rat finds that gap and gets in before anyone notices. We inspect your home, remove the mice or rats already inside, and seal the entry points so they don't come back next winter.
+We offer same day rodent control in Truckee, and we fix the problem so it stays fixed, not a quick patch that brings the mice or rats back in a week. We serve second homes and vacation rentals in Glenshire, Donner Lake, and across Truckee, and every job covers inspection, removal, and sealing the attic, crawl space, or wall where they got in.
 
-- **Licensed and insured**
-- **Same day service available**
-- **Serving Glenshire, Donner Lake, Northstar, and nearby areas**
+**Licensed and Insured** | **Same Day Service** | **Serving Truckee's 96161 Area**
 
 [Call for a Free Estimate] [Or Request a Callback]
 
 ---
 
-## H2: Expert Rodent Control in Truckee
+## H2: Why an Empty House Is the Easiest Target
 
-Truckee winters get cold fast, and once the nights turn, mice and rats start looking for someplace warm. A house that sits empty for a few weeks is usually the easiest one to get into. If your place near Glenshire or Donner Lake sits quiet most of the month, or your car has been parked in the garage for a while, that's exactly the kind of spot a rodent will settle into unnoticed.
+Nights in Truckee have started dropping into the 30s, and that's exactly when mice and rats start looking for a way inside. If your place near Glenshire or Donner Lake sits quiet most of the month, or your car has been parked in the garage for a while, that's exactly the kind of spot a rodent settles into first, and nobody notices until the damage is already done.
 
-We only work on mice and rats, not every pest a general exterminator handles. That focus means our team knows how rodents get into mountain homes here, from attic vents to parked vehicles, not just how pests act normally. Our staff is trained to handle freeze and thaw damage in mountain properties, and we serve the 96161 area. Every job includes inspection, removal, and sealing, not just traps.
+**Why Truckee Homeowners Trust Us**
+
+- Rodent only focus, we don't split our training across every pest
+- Trained for the freeze and thaw damage specific to a Truckee winter, lifted roof boards, bent vent covers, and shifting foundations
+- Photo documentation on every job, even if the owner isn't there
+- We tell you what's actually wrong and what it takes to fix it
 
 ---
 
 ## H2: Why Rodents Get Into Truckee Homes
 
-Truckee sits high up in the mountains with long, cold winters. This changes how rodents act compared to towns that are lower and warmer. Once nights get cold, mice and rats leave open fields and look for someplace warm. Snow sitting on a roof can push up boards and vents just enough to open a small gap. A mouse only needs a gap the size of a quarter inch to get through. Once a rodent gets inside, it leaves a scent trail within two to three days, and that trail brings more rodents in behind it.
+Once nights turn cold, a mouse or rat doesn't wait long to look for warmth. Heavy snow can loosen a roof board or bend a vent cover soon after the first freeze, and a rodent finds that gap fast. Once inside, it leaves a scent trail within two to three days, and that trail is what pulls more rodents in as winter goes on.
 
-This is why a home near Alder Creek or along Donner Pass Road can go from one mouse in October to a real problem by December if the entry point never gets sealed. Trapping alone gets rid of the mice that are already inside, but it does nothing about the gap they came through. Sealing that gap is what actually stops it from happening again next season.
+This is why a small gap in October can turn into a real problem by the time holiday guests arrive in December, and why a home near Alder Creek or along Donner Pass Road that seemed fine in the fall can have scratching in the attic by Christmas if the entry point never gets sealed. Trapping alone gets rid of the mice that are already inside, but it does nothing about the gap they came through. Sealing that gap is what actually stops it from happening again next season.
 
 ### H3: Why Do Rodents Invade Truckee Homes After the First Freeze?
 

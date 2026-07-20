@@ -6,11 +6,11 @@ Same day mice and rat removal near Glenshire, Donner Lake, and Northstar. Truste
 
 ---
 
-# H1: Trusted Rodent Control in Truckee
+# H1: Trusted Rodent Control Truckee
 
-We offer same day rodent control in Truckee, and we fix the problem so it stays fixed, not a quick patch that brings the mice or rats back in a week. We serve second homes and vacation rentals in Glenshire, Donner Lake, and across Truckee, and every job covers inspection, removal, and sealing the attic, crawl space, or wall where they got in.
+We offer same day rodent control in Truckee, and we fix the problem so it stays gone, not a quick patch that brings the mice or rats back in a week. We serve second homes and vacation rentals in Glenshire, Donner Lake, and across Truckee, and every job covers inspection, removal, and sealing the attic, crawl space, or wall where they got in.
 
-**Licensed and Insured** | **Same Day Service** | **Serving Truckee's 96161 Area**
+**Licensed and Insured** | **Free Estimates** | **Serving Truckee's 96161 Area**
 
 [Call for a Free Estimate] [Or Request a Callback]
 
@@ -18,7 +18,7 @@ We offer same day rodent control in Truckee, and we fix the problem so it stays 
 
 ## H2: Why an Empty House Is the Easiest Target
 
-Nights in Truckee have started dropping into the 30s, and that's exactly when mice and rats start looking for a way inside. If your place near Glenshire or Donner Lake sits quiet most of the month, or your car has been parked in the garage for a while, that's exactly the kind of spot a rodent settles into first, and nobody notices until the damage is already done.
+Nights in Truckee have started dropping into the 30s, and that's exactly when mice and rats start looking for a way inside. If your place near **Glenshire** or **Donner Lake** sits quiet most of the month, or your car has been parked in the garage for a while, that's exactly the kind of spot a rodent settles into first, and nobody notices until the damage is already done.
 
 **Why Truckee Homeowners Trust Us**
 
@@ -31,9 +31,9 @@ Nights in Truckee have started dropping into the 30s, and that's exactly when mi
 
 ## H2: Why Rodents Get Into Truckee Homes
 
-Once nights turn cold, a mouse or rat doesn't wait long to look for warmth. Heavy snow can loosen a roof board or bend a vent cover soon after the first freeze, and a rodent finds that gap fast. Once inside, it leaves a scent trail within two to three days, and that trail is what pulls more rodents in as winter goes on.
+Once nights turn cold, a mouse or rat doesn't wait long to look for warmth. Heavy snow can loosen a roof board or bend a vent cover soon after the first freeze, and a rodent finds that gap fast. Once inside, it leaves a **scent trail within two to three days**, and that trail is what pulls more rodents in as winter goes on.
 
-This is why a small gap in October can turn into a real problem by the time holiday guests arrive in December, and why a home near Alder Creek or along Donner Pass Road that seemed fine in the fall can have scratching in the attic by Christmas if the entry point never gets sealed. Trapping alone gets rid of the mice that are already inside, but it does nothing about the gap they came through. Sealing that gap is what actually stops it from happening again next season.
+This is why a small gap in October can turn into a real problem by the time holiday guests arrive in December, and why a home near **Alder Creek** or along **Donner Pass Road** that seemed fine in the fall can have scratching in the attic by Christmas if the entry point never gets sealed. Trapping alone gets rid of the mice that are already inside, but it does nothing about the gap they came through. Sealing that gap is what actually stops it from happening again next season.
 
 ### H3: Why Do Rodents Invade Truckee Homes After the First Freeze?
 

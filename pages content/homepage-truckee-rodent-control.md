@@ -10,7 +10,7 @@ Same day mice and rat removal near Glenshire, Donner Lake, and Northstar. Truste
 
 We offer same day rodent control in Truckee, and we fix the problem so it stays gone, not a quick patch that brings the mice or rats back in a week. We serve second homes and vacation rentals in Glenshire, Donner Lake, and across Truckee, and every job covers inspection, removal, and sealing the attic, crawl space, or wall where they got in.
 
-**Licensed and Insured** | **Free Estimates** | **Serving Truckee's 96161 Area**
+**Licensed and Insured** | **Pet and Kid Safe Methods** | **Photo Documented Jobs** | **Serving Truckee's 96161 Area**
 
 [Call for a Free Estimate] [Or Request a Callback]
 

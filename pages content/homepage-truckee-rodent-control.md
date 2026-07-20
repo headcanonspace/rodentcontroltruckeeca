@@ -8,7 +8,7 @@ Same day mice and rat removal near Glenshire, Donner Lake, and Northstar. Truste
 
 # H1: Trusted Rodent Control Truckee
 
-We offer same day rodent control in Truckee, and we fix the problem so it stays gone, not a quick patch that brings the mice or rats back in a week. We serve second homes and vacation rentals in Glenshire, Donner Lake, and across Truckee, and every job covers inspection, removal, and sealing the attic, crawl space, or wall where they got in.
+We offer same/next-day mice and rat removal in Truckee, and we fix the problem so it stays gone, not a quick patch that lets them back in a week later. We serve second homes and vacation rentals throughout Truckee, Glenshire, and Donner Lake. Every job includes a full inspection, removal, and sealing the attic, the crawl space, or the wall gaps they used to enter through.
 
 **Licensed and Insured** | **Pet and Kid Safe Methods** | **Photo Documented Jobs** | **Serving Truckee's 96161 Area**
 
@@ -16,44 +16,44 @@ We offer same day rodent control in Truckee, and we fix the problem so it stays 
 
 ---
 
-## H2: Why an Empty House Is the Easiest Target
+## H2: What Actually Happens When You Call Us
 
-Nights in Truckee have started dropping into the 30s, and that's exactly when mice and rats start looking for a way inside. If your place near **Glenshire** or **Donner Lake** sits quiet most of the month, or your car has been parked in the garage for a while, that's exactly the kind of spot a rodent settles into first, and nobody notices until the damage is already done.
+Most rodent control in Truckee isn't complicated, it's just left unexplained. You get a technician who sets a few traps, doesn't tell you where the entry point actually is, and you're calling again in a month. We do it differently: one visit to find the real entry point, one clear explanation of what's wrong, and one plan to close it for good, so you're not left guessing what happens next.
 
 **Why Truckee Homeowners Trust Us**
 
-- Rodent only focus, we don't split our training across every pest
-- Trained for the freeze and thaw damage specific to a Truckee winter, lifted roof boards, bent vent covers, and shifting foundations
-- Photo documentation on every job, even if the owner isn't there
-- We tell you what's actually wrong and what it takes to fix it
+- One technician, start to finish, no rotating crew, no re-explaining your problem to someone new
+- You know the plan before we start, a clear, honest breakdown of what's wrong and what it takes to fix it
+- We explain it in plain language, where they got in, why, and what sealing it actually involves, no jargon
+- We find the source, not just the symptoms, traps alone don't fix anything if the entry point's still open
 
 ---
 
 ## H2: Why Rodents Get Into Truckee Homes
 
-Once nights turn cold, a mouse or rat doesn't wait long to look for warmth. Heavy snow can loosen a roof board or bend a vent cover soon after the first freeze, and a rodent finds that gap fast. Once inside, it leaves a **scent trail within two to three days**, and that trail is what pulls more rodents in as winter goes on.
+Once nights turn cold, a mouse or rat doesn't wait long to look for warmth. Heavy snow can shift a foundation vent or pull a soffit panel loose soon after the first freeze, and a rodent finds that opening fast. Once inside, it starts marking a scent trail almost immediately, and that trail is what pulls more rodents in as the season goes on, whether it's a cabin near Donner Lake or a house tucked into the trees off Alder Creek.
 
-This is why a small gap in October can turn into a real problem by the time holiday guests arrive in December, and why a home near **Alder Creek** or along **Donner Pass Road** that seemed fine in the fall can have scratching in the attic by Christmas if the entry point never gets sealed. Trapping alone gets rid of the mice that are already inside, but it does nothing about the gap they came through. Sealing that gap is what actually stops it from happening again next season.
+A small gap in October can turn into scratching in the attic by the time holiday guests arrive in December. A home along Donner Pass Road or up in Tahoe Donner that seemed fine in the fall can have droppings in the crawl space or noise in the walls by Christmas if that entry point never gets sealed. Trapping alone clears out the mice already inside, but it does nothing about the gap they came through, real rodent control means sealing that gap so it doesn't happen again next season.
 
-### H3: Why Do Rodents Invade Truckee Homes After the First Freeze?
+### H3: Why Do Mice and Rats Show Up in Truckee Homes When It Gets Cold?
 
-Rodents invade Truckee homes after the first freeze because cold nights push them to look for warmth indoors. Snow weight often lifts roof boards or bends vents around the same time, opening new gaps for them to use. Once inside, a rodent marks a path that other rodents follow all winter.
+Cold nights push mice and rats to look for warmth indoors, and the first cold snap of the season is usually when that search starts. Snowfall around the same time can loosen siding or shift a crawl space vent, creating a fresh opening. Once a rodent gets in, it leaves a scent trail that draws others in as the winter continues.
 
 ---
 
 ## H2: Rodent Control Services in Truckee
 
-We handle rat removal, mice removal, and the cleanup that follows once they're gone. Mice removal also covers deer mice, which carry hantavirus and need extra care during cleanup. Inspection and sealing are included in every job as part of full exclusion, not billed as an extra.
+We handle rat removal, mice removal, and the cleanup that follows once they're gone. Mice removal also covers deer mice, which carry hantavirus and need extra care during cleanup. Inspection and sealing are included in every job as part of full exclusion, not billed as an add-on.
 
 | Service | What It Covers |
 |---|---|
-| **Rat Removal** | Inspection for entry points and nesting areas, trapping and exclusion, then sealing gaps so rats can't get back in |
-| **Mice Removal** | Inspection of attic, crawl space, and pantry areas, trapping and exclusion, then sealing gaps over a quarter inch |
-| **Attic Cleanup** | Removal of droppings, nesting material, and damaged insulation left behind, then sealing gaps with steel mesh or metal flashing so rodents can't get back in |
+| **Rat Removal** | Inspection for entry points and nesting areas, trapping and exclusion, then sealing any gap a half inch or larger so rats can't return |
+| **Mice Removal** | Inspection of attic, crawl space, and pantry areas, trapping and exclusion, then sealing any gap a quarter inch or larger, the size mice actually use to get in |
+| **Attic Cleanup** | Removal of droppings, nesting material, and damaged insulation left behind, followed by permanent exclusion work to close off the space for good |
 
-### H3: What's the Most Effective Rodent Control Method for Mountain Homes?
+### H3: How Do You Actually Keep Mice and Rats Out of a Truckee Cabin for Good?
 
-The most effective method combines trapping, sealing every gap over a quarter inch, and cleaning up scent trails left behind. In a place like Truckee, materials matter too. Foam and plastic mesh fail under snow load and freeze thaw cycles, so steel mesh and metal flashing hold up better over a full winter.
+It comes down to three things done in order: clear out what's already inside, close off how they got in, and remove the scent they left behind so new ones don't follow it. Skipping the second step is why most DIY attempts don't hold, a trap solves today's mouse, not next month's.
 
 ---
 
@@ -105,18 +105,20 @@ Seeing three mice usually means more are already living somewhere in the house, 
 
 ## H2: Areas We Serve Near Truckee, CA
 
-We serve homes and rentals across Truckee's 96161 zip code, including:
+We serve homes and rentals across Truckee's 96161 and 96160 zip codes, including:
 
 - Downtown Truckee
 - Glenshire
 - Donner Lake
-- Prosser Lakeview
+- Tahoe Donner
+- Old Greenwood
+- Gray's Crossing
 - Hobart Mills
-- Martis Camp
-- Lahontan
-- Northstar
+- Prosser Heights
 
-Many of our calls come from properties near the Tahoe Truckee Unified School District boundary and along Donner Pass Road, where older construction and heavy tree cover near the Truckee River create more entry points than newer builds closer to town.
+Many of our calls come from properties near the Tahoe Truckee Unified School District boundary and along Donner Pass Road, close to Historic Commercial Row, where older construction and heavy tree cover near the Truckee River create more entry points than newer builds closer to town.
+
+Why it sits here specifically: the bullet list gives Google and skimming readers the flat list of areas you serve, and this paragraph right after it adds the "why" — explaining what kind of properties you're seeing calls from and why those specific spots (older construction, tree cover) are more exposed. It's a natural close to the section rather than something that belongs earlier in the page (like the hero or the "why rodents get in" section, which are more general/page-wide rather than location-specific).
 
 ---
 

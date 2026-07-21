@@ -16,7 +16,7 @@ Scratching in the wall, droppings near the pantry, or a smell you can't place. A
 
 ## H2: Call Us
 
-Phone: [+1 (530) 214-5152](tel:+15302145152)
+Phone: [(530) 214-5152](tel:+15302145152)
 
 ## H2: Where We're Located
 

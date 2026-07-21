@@ -14,11 +14,18 @@ Scratching in the wall, droppings near the pantry, or a smell you can't place. A
 
 ---
 
-## H2: Get in Touch
+## H2: Get in Touch & Hours
 
-Rodent Control Truckee
-Address: 10191 Donner Pass Rd, Truckee, CA 96161
-Phone: [(530) 214-5152](tel:+15302145152)
+**Rodent Control Truckee**  
+Address: 10191 Donner Pass Rd, Truckee, CA 96161  
+Phone: [(530) 214-5152](tel:+15302145152)  
+
+**Hours & Response**  
+- Monday – Friday: 8:00 AM – 6:00 PM  
+- Saturday: 9:00 AM – 3:00 PM  
+- Sunday: Closed  
+
+*Same-day response & real workmanship warranty*
 
 [Call Now: (530) 214-5152]
 

@@ -18,14 +18,6 @@ Scratching in the wall, droppings near the pantry, or a smell you can't place. A
 
 Phone: [+1 (530) 214-5152](tel:+15302145152)
 
-## H2: Hours
-
-| Day | Hours |
-|---|---|
-| Monday to Friday | 8 AM to 6 PM |
-| Saturday | 9 AM to 3 PM |
-| Sunday | Closed |
-
 ## H2: Where We're Located
 
 10191 Donner Pass Rd, Truckee, CA 96161

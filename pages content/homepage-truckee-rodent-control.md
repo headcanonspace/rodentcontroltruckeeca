@@ -128,9 +128,9 @@ Many of our calls come from properties near the Tahoe Truckee Unified School Dis
 
 Yes. Trapping combined with sealing entry points removes rodents without the risk of one dying inside a wall, which is a common problem with poison bait in houses with limited access to wall cavities.
 
-### H3: How Much Does an Exterminator Truckee Service Cost for Homeowners?
+### H3: What Is the Average Cost of an Exterminator in Truckee?
 
-The cost of an exterminator service in Truckee typically runs from a basic single visit up to a full year of quarterly prevention. The right option depends on whether you're dealing with an active infestation or trying to prevent one before winter.
+The cost of an exterminator in Truckee typically runs from a basic single visit up to a full year of quarterly prevention. The right option depends on whether you're dealing with an active infestation or trying to prevent one before winter.
 
 ### H3: Is Hiring a Professional Worth It If I'm Already Doing DIY Pest Control?
 

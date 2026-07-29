@@ -28,7 +28,7 @@ try {
 
 // Credentials
 $username = 'admin';
-$password_hash = '$2y$10$wO2J505H/K/7vHn3xOpxDOn/B03y6.l8.aPz0Hn1vH/0PzAJ2v9K.'; // Hash of 'TruckeeRodent2026!'
+$password_hash = '$2y$10$EjM8GKfWdfLrDDcSNICoCOnmODb7CVAvPj2wvGFq5/DMgDBggN3vy';
 
 // Handle Logout
 if (isset($_GET['action']) && $_GET['action'] === 'logout') {

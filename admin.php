@@ -116,6 +116,7 @@ function safe($val) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rodent Control Truckee — Call Telemetry Dashboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -302,6 +303,62 @@ function safe($val) {
           $stmt = $pdo->prepare("SELECT city, region, postal, COUNT(*) as count FROM clicks $where_str GROUP BY city, region, postal ORDER BY count DESC LIMIT 5");
           $stmt->execute($params);
           $location_counts = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+          // Daily/Hourly click trends based on filter for charts
+          $trend_labels = [];
+          $trend_values = [];
+          if ($filter === 'today' || $filter === 'yesterday') {
+              $date_clause = $filter === 'today' ? "date('now', 'localtime')" : "date('now', '-1 day', 'localtime')";
+              $stmt = $pdo->prepare("
+                  SELECT strftime('%H', timestamp, 'localtime') as hour, COUNT(*) as count 
+                  FROM clicks 
+                  WHERE date(timestamp, 'localtime') = $date_clause
+                  GROUP BY hour 
+                  ORDER BY hour ASC
+              ");
+              $stmt->execute();
+              $raw_trends = $stmt->fetchAll(PDO::FETCH_ASSOC);
+              
+              $hours = [];
+              for ($h = 0; $h < 24; $h++) {
+                  $formatted_hour = sprintf('%02d', $h);
+                  $hours[$formatted_hour . ':00'] = 0;
+              }
+              foreach ($raw_trends as $r) {
+                  $formatted_hour = $r['hour'] . ':00';
+                  if (isset($hours[$formatted_hour])) {
+                      $hours[$formatted_hour] = (int)$r['count'];
+                  }
+              }
+              $trend_labels = array_keys($hours);
+              $trend_values = array_values($hours);
+          } else {
+              $days_back = ($filter === '30days') ? 29 : 6;
+              $stmt = $pdo->prepare("
+                  SELECT date(timestamp, 'localtime') as day, COUNT(*) as count 
+                  FROM clicks 
+                  WHERE date(timestamp, 'localtime') >= date('now', :days_back, 'localtime') 
+                  GROUP BY day 
+                  ORDER BY day ASC
+              ");
+              $stmt->execute([':days_back' => '-' . $days_back . ' days']);
+              $raw_trends = $stmt->fetchAll(PDO::FETCH_ASSOC);
+              
+              $days = [];
+              for ($i = $days_back; $i >= 0; $i--) {
+                  $d = date('Y-m-d', strtotime("-$i days"));
+                  $days[$d] = 0;
+              }
+              foreach ($raw_trends as $r) {
+                  if (isset($days[$r['day']])) {
+                      $days[$r['day']] = (int)$r['count'];
+                  }
+              }
+              foreach ($days as $date_str => $val) {
+                  $trend_labels[] = date('M d', strtotime($date_str));
+                  $trend_values[] = $val;
+              }
+          }
       } catch (PDOException $e) {}
       
       // 3. Pagination & Logs
@@ -403,6 +460,31 @@ function safe($val) {
           </div>
           <div class="bg-purple-500/10 p-3.5 rounded-xl border border-purple-500/20 text-purple-400">
             <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts Visualization Section -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+        <!-- Trend Chart (2/3 width) -->
+        <div class="glass-card rounded-2xl p-6 border border-slate-800 lg:col-span-2 flex flex-col">
+          <h3 class="text-base font-bold text-white mb-5 pb-2 border-b border-slate-800/80 flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+            Conversion Trend (<?php echo $filter === 'today' ? 'Hourly Today' : ($filter === 'yesterday' ? 'Hourly Yesterday' : ($filter === '30days' ? 'Last 30 Days' : 'Last 7 Days')); ?>)
+          </h3>
+          <div class="flex-grow min-h-[300px] relative">
+            <canvas id="trendChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Distribution Chart (1/3 width) -->
+        <div class="glass-card rounded-2xl p-6 border border-slate-800 lg:col-span-1 flex flex-col">
+          <h3 class="text-base font-bold text-white mb-5 pb-2 border-b border-slate-800/80 flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-purple-400"></span>
+            CTA Performance Share
+          </h3>
+          <div class="flex-grow min-h-[300px] flex items-center justify-center relative">
+            <canvas id="distributionChart"></canvas>
           </div>
         </div>
       </div>
@@ -594,6 +676,139 @@ function safe($val) {
       &copy; 2026 Rodent Control Truckee. Call Conversion tracking.
     </div>
   </footer>
+  <?php if ($is_authenticated): ?>
+  <script>
+    // Trend Chart
+    const ctxTrend = document.getElementById('trendChart').getContext('2d');
+    
+    // Custom gradient for line fill
+    const gradient = ctxTrend.createLinearGradient(0, 0, 0, 300);
+    gradient.addColorStop(0, 'rgba(169, 223, 89, 0.25)'); // Emerald Green with 25% opacity
+    gradient.addColorStop(1, 'rgba(169, 223, 89, 0.0)');
+
+    new Chart(ctxTrend, {
+      type: 'line',
+      data: {
+        labels: <?php echo json_encode($trend_labels); ?>,
+        datasets: [{
+          label: 'Dialer Clicks',
+          data: <?php echo json_encode($trend_values); ?>,
+          borderColor: '#8ec53f', // emerald-600
+          borderWidth: 3,
+          backgroundColor: gradient,
+          fill: true,
+          tension: 0.35,
+          pointBackgroundColor: '#a9df59', // emerald-500
+          pointBorderColor: '#030712', // ink-dark
+          pointBorderWidth: 2.5,
+          pointRadius: 4,
+          pointHoverRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: false
+          },
+          tooltip: {
+            mode: 'index',
+            intersect: false,
+            backgroundColor: '#111827', // ink
+            titleColor: '#f8fafc',
+            bodyColor: '#cbd5e1',
+            borderColor: '#334155',
+            borderWidth: 1,
+            padding: 10,
+            displayColors: false
+          }
+        },
+        scales: {
+          y: {
+            grid: {
+              color: 'rgba(51, 65, 85, 0.15)',
+              drawBorder: false
+            },
+            ticks: {
+              color: '#94a3b8',
+              font: {
+                family: 'Inter',
+                size: 11
+              },
+              precision: 0
+            }
+          },
+          x: {
+            grid: {
+              display: false
+            },
+            ticks: {
+              color: '#94a3b8',
+              font: {
+                family: 'Inter',
+                size: 11
+              }
+            }
+          }
+        }
+      }
+    });
+
+    // CTA Distribution Share Chart
+    const ctxDist = document.getElementById('distributionChart').getContext('2d');
+    const ctaCounts = <?php echo json_encode($cta_counts); ?>;
+    const ctaLabels = ctaCounts.map(item => item.cta || 'Unknown');
+    const ctaValues = ctaCounts.map(item => item.count);
+
+    new Chart(ctxDist, {
+      type: 'doughnut',
+      data: {
+        labels: ctaLabels.length ? ctaLabels : ['No Data'],
+        datasets: [{
+          data: ctaValues.length ? ctaValues : [1],
+          backgroundColor: ctaValues.length ? [
+            '#a9df59', // Emerald Green
+            '#06b6d4', // Cyan
+            '#f59e0b', // Amber
+            '#8b5cf6', // Purple
+            '#ef4444'  // Red
+          ] : ['#1f2937'],
+          borderWidth: 0,
+          hoverOffset: 4
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: 'bottom',
+            labels: {
+              color: '#cbd5e1',
+              font: {
+                family: 'Inter',
+                size: 11
+              },
+              padding: 12,
+              usePointStyle: true,
+              pointStyle: 'circle'
+            }
+          },
+          tooltip: {
+            backgroundColor: '#111827',
+            titleColor: '#f8fafc',
+            bodyColor: '#cbd5e1',
+            borderColor: '#334155',
+            borderWidth: 1,
+            padding: 10
+          }
+        },
+        cutout: '70%'
+      }
+    });
+  </script>
+  <?php endif; ?>
 
 </body>
 </html>

@@ -217,8 +217,6 @@ function safe($val) {
             <button type="submit" name="login" class="w-full bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-slate-950 font-extrabold py-3.5 rounded-xl transition-all shadow-lg hover:shadow-emerald-500/10 tracking-wide text-sm flex items-center justify-center gap-2 mt-4">
               Access Dashboard
             </button>
-            
-            <p class="text-center text-xs text-slate-500 pt-2">Default Password: <code class="bg-slate-900 px-1.5 py-0.5 rounded text-slate-400">TruckeeRodent2026!</code></p>
           </form>
         </div>
       </div>

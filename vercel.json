@@ -36,6 +36,11 @@
       "source": "/blog.html",
       "destination": "/blog",
       "permanent": true
+    },
+    {
+      "source": "/rodent-control-glenshire.html",
+      "destination": "/rodent-control-glenshire",
+      "permanent": true
     }
   ]
 }

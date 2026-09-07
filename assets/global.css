@@ -1,10 +1,8 @@
 /* =====================================================================
- * Theme-6 — "Trade Pro"
+ * Theme-6: "Trade Pro"
  * Modern services aesthetic. Spring green + deep ink. Inter + DM Sans.
  * Pulled visual cues from Roplumb reference template.
  * ===================================================================== */
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap");
 
 :root {
   --t6-green: #A9DF59;
@@ -817,8 +815,39 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 .t6-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(rgba(23,34,7,0.55), rgba(23,34,7,0.75));
+  background: rgba(23, 34, 7, 0.65);
   pointer-events: none;
+}
+
+/* ---------- Floating Call Button (Mobile) ---------- */
+.t6-floating-call-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--t6-green);
+  color: var(--t6-ink);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.t6-floating-call-btn:hover {
+  transform: scale(1.06);
+  background-color: var(--t6-green-dark);
+}
+.t6-floating-call-btn:active {
+  transform: scale(0.95);
+}
+@media (max-width: 900px) {
+  .t6-floating-call-btn {
+    display: flex;
+  }
 }
 
 /* ---------- Focus states ---------- */
@@ -870,3 +899,29 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 /* Final CTA full-width green band header treatment */
 .t6-band-green .t6-eyebrow { color: var(--t6-ink); opacity: 0.65; }
 .t6-band-ink .t6-eyebrow { color: var(--t6-green); }
+
+/* ---------- Topbar & Header Mobile Rules ---------- */
+.t6-topbar {
+  display: block;
+}
+@media (max-width: 900px) {
+  .t6-topbar {
+    display: none !important;
+  }
+  header .t6-btn-primary {
+    display: none !important;
+  }
+}
+
+/* ---------- Footer Responsive Layout ---------- */
+@media (max-width: 900px) {
+  footer.t6-band-ink > .t6-container > div:first-child {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media (max-width: 600px) {
+  footer.t6-band-ink > .t6-container > div:first-child {
+    grid-template-columns: 1fr !important;
+  }
+}
+

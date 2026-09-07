@@ -16,6 +16,18 @@ RewriteRule ^contact\.html$ /contact [R=301,L]
 RewriteCond %{THE_REQUEST} \s/privacy-policy\.html[\s?] [NC]
 RewriteRule ^privacy-policy\.html$ /privacy-policy [R=301,L]
 
+RewriteCond %{THE_REQUEST} \s/rat-removal-truckee\.html[\s?] [NC]
+RewriteRule ^rat-removal-truckee\.html$ /rat-removal-truckee [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/mice-control-truckee\.html[\s?] [NC]
+RewriteRule ^mice-control-truckee\.html$ /mice-control-truckee [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/rodent-control-downtown-truckee\.html[\s?] [NC]
+RewriteRule ^rodent-control-downtown-truckee\.html$ /rodent-control-downtown-truckee [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/rodent-control-glenshire\.html[\s?] [NC]
+RewriteRule ^rodent-control-glenshire\.html$ /rodent-control-glenshire [R=301,L]
+
 RewriteCond %{THE_REQUEST} \s/blog\.html[\s?] [NC]
 RewriteRule ^blog\.html$ /blog [R=301,L]
 

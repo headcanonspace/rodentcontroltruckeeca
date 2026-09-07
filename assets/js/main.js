@@ -54,10 +54,14 @@
       a.addEventListener("click", function (e) {
         var hash = a.getAttribute("href");
         if (!hash || hash === "#" || hash.length < 2) return;
-        var target = document.querySelector(hash);
-        if (!target) return;
-        e.preventDefault();
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        try {
+          var target = document.querySelector(hash);
+          if (!target) return;
+          e.preventDefault();
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+        } catch (err) {
+          // If hash is not a valid CSS selector, let browser default handle it
+        }
       });
     });
   }
